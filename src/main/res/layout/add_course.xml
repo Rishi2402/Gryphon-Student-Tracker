@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+        android:id="@+id/addCourseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/addCourseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addCourseText"
+        android:layout_marginStart="200dp"
+        android:textSize="16sp"
+        android:text="Add"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/darker_gray"
+       />
+
+    <Button
+        android:id="@+id/cancelCourseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addCourseText"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/addCourseBtn"
+        android:textSize="16sp"
+        android:text="Cancel"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/darker_gray"
+        />
+</RelativeLayout>
